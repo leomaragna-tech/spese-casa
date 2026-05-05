@@ -1,0 +1,19 @@
+{
+  "name": "Gestione Spese Casa Beta Finale",
+  "short_name": "Spese Casa",
+  "start_url": "./gestione-spese-casa.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f6f2",
+  "theme_color": "#01696f",
+  "description": "Beta finale installabile per tracciare spese, budget, scadenze, contatti e allegati di una casa.",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%2301696f'/%3E%3Cpath d='M24 63 64 30l40 33' fill='none' stroke='white' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M40 58v38h48V58' fill='none' stroke='white' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M56 96V72h16v24' fill='none' stroke='white' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
