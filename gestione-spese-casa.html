@@ -10,7 +10,6 @@
   <title>Gestione Spese Casa</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
   <style>
     :root,[data-theme="light"]{
       --text-xs:clamp(.75rem,.7rem + .25vw,.875rem);
@@ -336,6 +335,10 @@
     <button class="nav-btn" data-panel="allegati">File</button>
   </nav>
 
+  <!-- 1) Carichiamo Chart.js prima del nostro script -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <!-- 2) Script dell'app -->
   <script>
     const STORAGE_KEY = 'casaBudgetSimpleV1';
     const categories = ['Idraulico','Elettricista','Muratore','Falegname','Imbianchino','Arredi','Manutenzione','Altro'];
